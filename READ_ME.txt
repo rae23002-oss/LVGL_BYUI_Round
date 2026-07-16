@@ -7,6 +7,9 @@ Connecting the display enviorment on a personal device:
 4. Open the project folder in VSCode 
 5. Connect display using Type-C cable from USB port on the display to personal device
 6. Navigate to PlatformIO extension and notice three options: "Default", "Native", and "esp32-s3-devkitc-1"
+
 -> esp32-s3-devkitc-1 and Native (when expanded) gives options to build, upload, and monitor code
   -> esp32-s3-devkitc-1 launches the code onto the display directly
   -> Native launches an enviorment onto personal device
+     -> *Optional* for testing on personal device:
+        (install SDL2 drivers online to allow for native to work)
